@@ -1,10 +1,10 @@
-Takes in a H2H matrix and does the following
+# Takes in a H2H matrix and does the following
 - Convert H2H records to probabilities
 - Randomizes a single elimination bracket N times
 - Records the simulated placings of each player in the bracket
 - Returns average placings for players as an attempt to rank
 
-Potential issues and future considerations 
-- Bayesian approach with priors to soften probabilities
+# Potential issues and future considerations 
+- Beta Binomial priors selection is tricky
 - Unplayed player pairs currently cause a discarded bracket but this seems to introduce unclear bias
 - Only takes into account H2H, assumes a metagame that only consists of these players
